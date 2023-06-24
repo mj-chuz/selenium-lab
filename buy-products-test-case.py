@@ -11,9 +11,8 @@ class MagentoDemoTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        # Configuración del controlador de Chrome
         cls.driver = webdriver.Chrome()
-        cls.driver.implicitly_wait(10)  # Espera implícita de 10 segundos
+        cls.driver.implicitly_wait(10)
 
 
 
